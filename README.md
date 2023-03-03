@@ -1,12 +1,12 @@
-# Curso de Formação em HTML Web Developer - Primeiros Passos
+# Curso de Formação em HTML Web Developer
 
-# Trilha HTML - Dio.me
 
-Módulo 01 - Primeiros passos com HTML
+## Trilha HTML - Dio.me
 
-A ideia deste desafio é elaborar um website, utilizando uma estrutura bem básica, utilizando tags aprendidas durante as aulas práticas até então.
+### Módulo 01 - Primeiros passos com HTML
 
-Utilizar todas as tags explicadas nas aulas: `<h1>` até `<h6>´, `<p>`, `<small>`, <i>, <u>, <strong>, <ol>, <ul>, <li>, <a>, <hr>.
+A ideia deste desafio é elaborar um website, utilizando uma estrutura bem básica, utilizando tags aprendidas durante as aulas práticas até então. 
 
-Utilizar novas tags sugeridas: <font>, <del>, <p>, <abbr>.
+Utilizar todas as tags explicadas nas aulas: `<h1>` até `<h6>`, `<p>`, `<mark>`, `<small>`, `<i>`, `<u>`, `<strong>`, `<ol>`, `<ul>`, `<li>`, `<a>`
 
+Utilizar novas tags sugeridas: `<font>`, `<del>`, `<p>`, `<abbr>`
