@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre o HTML</title>
+</head>
+<body>
+    <h1 id="inicio"><font color="FF0A00">HTML</font></h1>
+    <p>O <abbr title="Hypertext Markup Language">HTML</abbr> é uma linguagem de marcação utilizada para desenvolvimento de sites. Esta linguagem surgiu junto com o HTTP, ambos possibilitaram a internet ser popularizada.</p>
+
+    <h2>Índice</a></h2>
+
+    <ul>
+        <li><a href="#historia">História do HTML</a></li>
+        <li><a href="#funciona">Como funciona</a></li>
+        <li><a href="#funçoes">Algumas funções</a></li>
+        <li><a href="#referencia">Referência</a></li>
+    </ul>
+
+    <h2 id="historia">História do HTML</h2>
+    <P>Nos primeiros cinco anos (1990-1995), o HTML passou por várias revisões e experimentou várias extensões, hospedadas primeiramente no CERN e depois no IETF.<br>
+
+        Com a criação do W3C, o desenvolvimento do HTML mudou de local novamente. Uma primeira tentativa abortada de estender o HTML em 1995, conhecida como HTML 3.0, deu lugar a uma abordagem mais pragmática, conhecida como HTML 3.2, que foi concluída em 1997. O HTML 4.01 foi rapidamente seguido no mesmo ano.<br>
+        
+        No ano seguinte, os membros do W3C decidiram parar de evoluir HTML e, em vez disso, começar a trabalhar em um equivalente baseado em XML, chamado XHTML. Esse esforço começou com uma reformulação do HTML 4.01 em XML, conhecido como XHTML 1.0, que não adicionou novos recursos, exceto a nova serialização, e que foi concluído em 2000. Depois do XHTML 1.0, o foco do W3C se tornou mais fácil para outros grupos de trabalho para estender o XHTML, sob a bandeira da XHTML Modularization. Em paralelo, o W3C também trabalhou em um novo idioma que não era compatível com as linguagens HTML e XHTML anteriores, chamando-o de XHTML 2.0.<br>
+        
+        Na época em que a evolução do HTML foi interrompida em 1998, partes da API para HTML desenvolvidas por fornecedores de navegadores foram especificadas e publicadas sob o nome DOM Nível 1 (em 1998) e DOM Nível 2 Core e DOM Nível 2 HTML (a partir de 2000 e culminando em 2003). Esses esforços então se esgotaram, com algumas especificações do Nível 3 do DOM publicadas em 2004, mas o grupo de trabalho sendo fechado antes que todos os rascunhos do Nível 3 fossem concluídos.
+        <br>
+        
+        Em 2003, a publicação da XForms, uma tecnologia que foi posicionada como a próxima geração de formulários da Web, despertou um interesse renovado em evoluir o próprio HTML, em vez de encontrar substitutos para ele. Esse interesse surgiu da constatação de que a implantação do XML como uma tecnologia da Web estava limitada a tecnologias totalmente novas (como o RSS e o Atom posterior), em vez de substituir as tecnologias implantadas existentes (como o HTML).<br>
+        
+        Uma prova de conceito para mostrar que era possível estender os formulários do HTML 4.01 para fornecer muitos dos recursos que o XForms 1.0 introduziu, sem exigir que os navegadores implementassem mecanismos de renderização que eram incompatíveis com páginas da Web HTML existentes, foi o primeiro resultado disso. Interesse renovado. Nesse estágio inicial, embora o rascunho já estivesse disponível publicamente e a entrada já estivesse sendo solicitada de todas as fontes, a especificação estava apenas sob os direitos autorais do Opera Software.<br>
+        
+        A ideia de que a evolução do HTML deveria ser reaberta foi testada em um workshop do W3C em 2004, onde alguns dos princípios que fundamentam o trabalho HTML (descrito abaixo), bem como o rascunho da proposta acima, cobrindo apenas os recursos relacionados aos formulários, foram apresentados para o W3C em conjunto pela Mozilla e Opera. A proposta foi rejeitada com o argumento de que a proposta entrava em conflito com a direção previamente escolhida para a evolução da Web; a equipe e a associação do W3C votaram para continuar desenvolvendo substituições baseadas em XML.<br>
+        
+        Pouco tempo depois, a Apple, Mozilla e Opera anunciaram conjuntamente sua intenção de continuar trabalhando no esforço sob o guarda-chuva de um novo local chamado WHATWG. Uma lista de discussão pública foi criada e o rascunho foi movido para o site do WHATWG. Os direitos autorais foram posteriormente alterados para serem de propriedade conjunta dos três fornecedores e para permitir a reutilização da especificação.<br>
+        
+        O WHATWG foi baseado em vários princípios fundamentais, em particular que as tecnologias precisam ser compatíveis, que especificações e implementações precisam corresponder mesmo que isso signifique mudar a especificação em vez das implementações, e que as especificações precisem ser detalhadas o suficiente para que as implementações possam alcançar interoperabilidade completa sem engenharia reversa entre si.<br>
+        
+        O último requisito em particular exigia que o escopo da especificação HTML incluísse o que foi previamente especificado em três documentos separados: HTML 4.01, XHTML 1.1 e HTML de Nível 2 do DOM. Isso também significava incluir muito mais detalhes do que o anteriormente considerado como norma.<br>
+        
+        Em 2006, o W3C mostrou interesse em participar do desenvolvimento do HTML 5.0, e em 2007 formou um grupo de trabalho encarregado de trabalhar com o WHATWG no desenvolvimento da especificação HTML. A Apple, Mozilla e Opera permitiram que o W3C publicasse a especificação sob os direitos autorais do W3C, enquanto mantinha uma versão com a licença menos restritiva no site do WHATWG.<br>
+        
+        Por vários anos, ambos os grupos trabalharam juntos sob o mesmo editor: Ian Hickson. Em 2011, os grupos chegaram à conclusão de que tinham objetivos diferentes: o W3C queria desenhar uma linha na areia para recursos de uma recomendação HTML 5.0, enquanto o WHATWG queria continuar trabalhando em um Padrão Vivo para HTML, mantendo continuamente a especificação e adicionar novos recursos. Em meados de 2012, uma nova equipe de edição foi apresentada no W3C para cuidar da criação de uma recomendação do HTML 5.0 e preparar um rascunho de trabalho para a próxima versão em HTML.<br>
+        
+        Desde então, o W3C Web Platform WG tem sido rastreamentos do WHATWG que resolveram bugs registrados na especificação HTML do W3C ou representaram com mais precisão a realidade implementada nos agentes do usuário. No momento da publicação deste documento, os patches da especificação HTML do WHATWG foram mesclados até 12 de janeiro de 2016. Os editores HTML do W3C também adicionaram patches que resultaram de discussões e decisões tomadas pelo W3C Web Platform WG, bem como correções de erros de bugs não compartilhados pelo WHATWG.<br>
+        
+        <del> documento separado é publicado para documentar as diferenças entre o HTML especificado neste documento e o idioma descrito na especificação HTML 4.01. [HTML5-DIFF]</del>
+    </P>
+
+    <h2 id="funciona">Como funciona</h2>
+    <p>HTML (Hypertext Markup Language) é uma linguagem de marcação usada para criar e estruturar o conteúdo de páginas da web. Em outras palavras, o HTML é a base da maioria dos sites que você visita na internet. <br>
+    O HTML é composto por uma série de elementos, que são códigos especiais que dizem ao navegador como exibir diferentes partes do conteúdo da página. Cada elemento é indicado por uma tag, que é um conjunto de caracteres entre colchetes angulares, como "<tag>". As tags são usadas para envolver o conteúdo que se quer formatar, definir o tipo de elemento, e fornecer instruções adicionais sobre como o elemento deve ser exibido. <br>
+    Os elementos HTML também podem ter atributos, que são informações adicionais que modificam o comportamento do elemento ou fornecem informações sobre ele. Os atributos são adicionados à tag usando o formato "nome="valor"". Por exemplo, o atributo "src" é usado com a tag <img> para especificar o caminho para a imagem que deve ser exibida. <br>
+    Depois que a página é criada em HTML, ela é interpretada pelo navegador da web e exibida ao usuário. O navegador lê o HTML e aplica as regras de formatação e layout especificadas pelas tags para exibir o conteúdo da página. Além disso, o HTML pode ser combinado com outras tecnologias, como CSS (Cascading Style Sheets) e JavaScript, para criar páginas mais sofisticadas e interativas.
+
+
+
+
+
+
+    </p>
+
+    <h2 id="funçoes">Algumas funções</h2>
+    
+    <p>title Define o titulo da pagina.
+        <strong>Script</strong> Permite adicionar funções em paginas com script, podendo assim adicionar códigos em Javascript (Este código permite que alguns sites em HTML tenham joguinhos ou animações, verificações de formulários antes do envio para o servidor, entre outras funcionalidades)
+        <strong>Style</strong>  Define formatação em CSS.
+        A maioria dos códigos em HTML precisam ter um código de inicialização e um de finalização - são as chamadas Tag's (tag de abertura e tag de fechamento)
+    </p>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <h2 id="referencia">Referência</h2>
+    <p>
+        <a href="https://www.htmlecsspro.com/artigo/breve-historia-do-html" target="_blank"><i>Site de Referência</i></a>
+    </p>
+
+
+
+
+
+        
+    
+</body>
+</html>
